@@ -9,6 +9,7 @@ With the help of "MVC" (Model, View, Controller) library, the app is be built in
 
 To Use:
 - Download project files
+- CD into react-app-gallery
 - NPM Install dependencies 
 - Create a config.js folder to hold API key for Flickr (will need an account). Within that file, your API will look like the following:
     const apiKey = 'YOUR API KEY';
