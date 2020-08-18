@@ -1,32 +1,33 @@
 
 An Image Gallery App 
 
+This is a simple way to view a gallery of images either by search or choosing from one of three pre-determined topics, which can be altered.  
+
 Created on React for Treehouse Unit 7 - React Galley App
 
 With the help of "MVC" (Model, View, Controller) library, the app is be built in the style of modern single page applications to keep it fast, modular, and in sync with current web development trends.
 
 To Use:
-> First NPM Install dependencies 
-> Create a config.js folder to hold API key for Flickr
-> NPM Start
-> You can either type the name of the photo you want to search for or use the three topics loaded into the buttons
-> The three topics can be updated by changing them in state in App.js
+- Download project files
+- NPM Install dependencies 
+- Create a config.js folder to hold API key for Flickr (will need an account). Within that file, your API will look like the following:
+    const apiKey = 'YOUR API KEY';
+    export default apiKey;
+- NPM Start
+- You can either type the name of the photo you want to search for or use the three topics loaded into the buttons
+- The three topics can be updated by changing them in state in App.js
 
 Demonstrating use of:
-> Create React App 
-> React Router modules
-> Axios
-> JSX
+- Create React App 
+- React Router modules
+- Axios
+- JSX
 
 CSS: 
 The following has been altered 
-> BG Colour
-> Buttons; BG Colour, Transitions
-> Capitalize font
-
-
-
-
+- BG Colour
+- Buttons; BG Colour, Transitions
+- Capitalize font
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
