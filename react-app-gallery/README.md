@@ -12,8 +12,9 @@ To Use:
 - CD into react-app-gallery
 - NPM Install dependencies 
 - Create a config.js folder to hold API key for Flickr (will need an account). Within that file, your API will look like the following:
-    ````const apiKey = 'YOUR API KEY';
-        export default apiKey;
+    ````javascript
+    const apiKey = 'YOUR API KEY';
+    export default apiKey;
     ````
 - NPM Start
 - You can either type the name of the photo you want to search for or use the three topics loaded into the buttons
